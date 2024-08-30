@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import Atlantic from "./components/Atlantic/Atlantic.tsx";
-import Banana from "./components/Banana/Banana.tsx";
+import Atlantic from "./components/Atlantic/Atlantic";
+import Banana from "./components/Banana/Banana";
 
 import WidthLayout from "./components/WidthLayout";
-import Opebi from "./components/Opebi/Opebi.tsx";
+import Opebi from "./components/Opebi/Opebi";
 
 function App() {
   return (
