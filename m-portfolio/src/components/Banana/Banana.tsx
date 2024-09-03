@@ -1,15 +1,15 @@
-import WidthLayout from "../WidthLayout.tsx";
+import WidthLayout from "../WidthLayout";
 import React from "react";
 import vid1 from "../../vid/vid1.mp4";
 
-import { Button } from "../ui/button.tsx";
+import { Button } from "../ui/button";
 import {
   Dialog,
   DialogClose,
   DialogContent,
   DialogFooter,
   DialogTrigger,
-} from "../ui/dialog.tsx";
+} from "../ui/dialog";
 
 const Banana = () => {
   const bananaImg = [
