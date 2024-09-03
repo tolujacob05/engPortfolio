@@ -47,7 +47,7 @@ const Banana = () => {
       <Dialog>
         <DialogTrigger asChild>
           <div className="flex">
-            <p className="text-base text-white md:text-4xl hover:bg-primary-hueOne">
+            <p className="text-base text-white cursor-pointer md:text-4xl hover:bg-primary-hueOne">
               open
             </p>
           </div>
