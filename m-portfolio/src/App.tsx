@@ -5,6 +5,7 @@ import Banana from "./components/Banana/Banana";
 
 import WidthLayout from "./components/WidthLayout";
 import Opebi from "./components/Opebi/Opebi";
+import Punuka from "components/Punuka/Punuka";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
             <Atlantic />
             <Banana />
             <Opebi />
+            <Punuka />
           </div>
         </div>
       </div>
