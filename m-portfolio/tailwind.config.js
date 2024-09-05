@@ -2,10 +2,10 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
@@ -66,6 +66,37 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+
+        "faulty-flicker": {
+          "0%, 2%": { opacity: "0.1" },
+          "4%, 19%": { opacity: "0.5" },
+          "21%": { opacity: "0.1" },
+          "23%": { opacity: "1" },
+          "80%": { opacity: "0.5" },
+          "83%": { opacity: "0.4" },
+          "87%": { opacity: "1" },
+        },
+
+        "text-flicker": {
+          "0%": { opacity: "0.1" },
+          "2%": { opacity: "1" },
+          "8%": { opacity: "0.1" },
+          "9%": { opacity: "1" },
+          "12%": { opacity: "0.1" },
+          "20%": { opacity: "1" },
+          "25%": { opacity: "0.3" },
+          "30%": { opacity: "1" },
+          "70%": { opacity: "0.7" },
+          "72%": { opacity: "0.2" },
+          "77%": { opacity: "0.9" },
+          "100%": { opacity: "0.9" },
+        },
+
+        "border-flicker": {
+          "0%, 4%": { opacity: "0.1" },
+          "2%, 8%, 100%": { opacity: "1" },
+          "70%": { opacity: "0.7" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -74,4 +105,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
