@@ -70,18 +70,16 @@ const Atlantic = () => {
 
   return (
     // <WidthLayout>
-    <div className="flex justify-between w-full pt-4">
+    <div className="flex items-center justify-between w-full pt-4">
       <p className="text-white text-pb md:text-2xl">
-        Atlantic school ammin project
+        Atlantic school admin project
       </p>
 
       <Dialog>
         <DialogTrigger asChild>
-          <div className="flex">
-            <p className="text-base text-white cursor-pointer md:text-4xl hover:bg-primary-hueOne">
-              open
-            </p>
-          </div>
+          <h6 className="p-2 rounded-md noselect w-[100px] md:h-[50px]">
+            OPEN
+          </h6>
         </DialogTrigger>
 
         <DialogContent className="bg-[#161822] border-[#161822] pt-20">

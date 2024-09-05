@@ -76,15 +76,39 @@ const Opebi = () => {
 
   return (
     // <WidthLayout>
-    <div className="flex justify-between w-full pt-2">
-      <p className="text-white text-pb md:text-2xl">Opebi Project</p>
+    <div className="flex items-center justify-between w-full pt-2">
+      <div>
+        <p className="text-white text-pb md:text-2xl">Opebi Project</p>
+      </div>
 
       <Dialog>
         <DialogTrigger asChild>
-          <div className="flex">
-            <p className="text-base text-white cursor-pointer md:text-4xl hover:bg-primary-hueOne">
+          {/* <button className="relative text-white cursor-pointer py-2 px-4 rounded-md perspective-8 text-pb md:text-xl font-medium tracking-wider shadow-[inset_0px_0px_0.5em_0px_var(--glow-color),_0px_0px_0.5em_0px_var(--glow-color)] md:hover:shadow-[inset_0px_0px_0.5em_0px_var(--glow-color),_0px_0px_0.5em_0px_var(--glow-color)] hover:animate-[border-flicker_2s_linear_infinite] hover:text-[#A3B6D9] hover:border-[#18298B]">
+            <span className="relative inline-block mr-[-0.2em] text-shadow-[0_0_0.125em_hsla(0,0%,100%,0.3),_0_0_0.45em_var(--[#ecedf3])] hover:animate-[text-flicker_3s_linear_infinite]">
               open
-            </p>
+            </span>
+          </button> */}
+          <div className="flex flex-col items-center w-[100px] md:h-[50px] cont">
+            <button className="button">
+              <div className="w-8 blob">
+                <svg
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 310 350"
+                >
+                  <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z" />
+                </svg>
+              </div>
+              <div className="line"></div>
+              <div className="absolute text top-[10px] md:top-[15px]">
+                <h5>O</h5>
+                <h5>P</h5>
+                <h5>E</h5>
+                <h5>N</h5>
+                <h5>!</h5>
+              </div>
+            </button>
           </div>
         </DialogTrigger>
 

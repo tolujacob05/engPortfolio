@@ -41,16 +41,16 @@ const Banana = () => {
 
   return (
     // <WidthLayout>
-    <div className="flex justify-between w-full pt-2">
+    <div className="flex items-center justify-between w-full pt-2">
       <p className="text-white text-pb md:text-2xl">Banana Island Project</p>
 
       <Dialog>
         <DialogTrigger asChild>
-          <div className="flex">
-            <p className="text-base text-white cursor-pointer md:text-4xl hover:bg-primary-hueOne">
+          <button className="relative text-white cursor-pointer py-2 px-4 rounded-md perspective-8 text-pb md:text-xl font-medium tracking-wider shadow-[inset_0px_0px_0.5em_0px_var(--glow-color),_0px_0px_0.5em_0px_var(--glow-color)] md:hover:shadow-[inset_0px_0px_0.5em_0px_var(--glow-color),_0px_0px_0.5em_0px_var(--glow-color)] hover:animate-[border-flicker_2s_linear_infinite] hover:text-[#A3B6D9] hover:border-[#18298B] w-[100px] md:h-[50px]">
+            <span className="relative inline-block mr-[-0.2em] text-shadow-[0_0_0.125em_hsla(0,0%,100%,0.3),_0_0_0.45em_var(--[#ecedf3])] hover:animate-[text-flicker_3s_linear_infinite]">
               open
-            </p>
-          </div>
+            </span>
+          </button>
         </DialogTrigger>
 
         <DialogContent className="bg-[#161822] border-[#161822] pt-20">
