@@ -77,7 +77,7 @@ const Atlantic = () => {
 
       <Dialog>
         <DialogTrigger asChild>
-          <h6 className="p-2 rounded-md noselect w-[100px] md:h-[50px]">
+          <h6 className="p-2 rounded-md noselect w-[100px] md:h-[50px] text-center">
             OPEN
           </h6>
         </DialogTrigger>
